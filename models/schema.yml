@@ -26,3 +26,14 @@ sources:
             tests:
               - unique
               - not_null
+              
+      - name: ship
+        identifier: raw_ship
+        description: ship list
+        columns:
+          - name: orders_id
+            description: unique id of the ship
+            tests:
+              - unique
+              - not_null
+              
